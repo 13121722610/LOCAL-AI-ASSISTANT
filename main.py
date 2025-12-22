@@ -153,10 +153,12 @@ def handle_search_image(args, image_processor: ImageProcessor, vector_db: Vector
         print("没有找到相关图片")
         return
     
-    print(f"\n找到 {len(results)} 张相关图片:\n")
-    for i, (score, image_path, metadata) in enumerate(results, 1):
+    print(f"\n找到相关图片:\n")
+    # 只显示（相似度最高）的结果
+    if results:
+        score, image_path, metadata = results[0]
         filename = Path(image_path).name if image_path else "Unknown"
-        print(f"{i}. {filename} (相似度: {score:.3f})")
+        print(f"1. {filename} (相似度: {score:.3f})")
         if image_path:
             print(f"   路径: {image_path}")
         if metadata and 'format' in metadata:
