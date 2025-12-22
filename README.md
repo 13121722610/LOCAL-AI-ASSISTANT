@@ -8,8 +8,10 @@ Local AI Assistant 是一个基于Python的本地多模态AI智能助手，旨�
 ·创建虚拟环境：  
 conda create -n ai-assistant python=3.10 -y  
 conda activate ai-assistant  
+
 ·安装依赖：  
 pip install -r requirements.txt  
+
 ·安装Web界面依赖：  
 pip install gradio  
 
@@ -35,6 +37,7 @@ python main.py list_papers
 python main.py list_images  
 
 【Web界面模式：】
+
 ·启动Web服务  
 python web_app.py  
 
@@ -47,6 +50,7 @@ python web_app.py
 # 📞 支持与联系
 电子邮件: 25120410@bjtu.edu.cn  
 电话：13121722610
+
 
 
 
