@@ -57,7 +57,8 @@ python main.py list_images
 ·设置环境变量，让Gradio使用当前目录  
 export GRADIO_TEMP_DIR="./gradio_temp"  
 mkdir -p gradio_temp  
-··启动Web服务  
+
+·启动Web服务  
 python web_app.py  
 
 访问 http://localhost:7860 打开Web界面  
@@ -124,6 +125,7 @@ python web_app.py
 # 📞 支持与联系
 电子邮件: 25120410@bjtu.edu.cn  
 电话：13121722610
+
 
 
 
