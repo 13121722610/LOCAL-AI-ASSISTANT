@@ -53,8 +53,11 @@ python main.py list_papers
 python main.py list_images  
 
 ### 【Web界面模式：】
-
-·启动Web服务  
+  
+·设置环境变量，让Gradio使用当前目录
+export GRADIO_TEMP_DIR="./gradio_temp"
+mkdir -p gradio_temp
+··启动Web服务
 python web_app.py  
 
 访问 http://localhost:7860 打开Web界面  
@@ -106,9 +109,18 @@ python web_app.py
 • 文件上传组件  
 • 图片画廊展示  
 
+# 🧠 运行结果截图
+
+
+<img width="712" height="232" alt="image" src="https://github.com/user-attachments/assets/4e40f2c6-416d-4169-a755-23e8f1e2e295" />
+<img width="570" height="236" alt="image" src="https://github.com/user-attachments/assets/9fa98673-2239-4ea9-9c64-4890436629b9" />
+
+
+
 # 📞 支持与联系
 电子邮件: 25120410@bjtu.edu.cn  
 电话：13121722610
+
 
 
 
