@@ -115,12 +115,15 @@ python web_app.py
 <img width="570" height="236" alt="image" src="https://github.com/user-attachments/assets/9fa98673-2239-4ea9-9c64-4890436629b9" />
 <img width="943" height="416" alt="image" src="https://github.com/user-attachments/assets/c97ab7d3-7ae7-43c4-aaf3-993038d3e213" />
 <img width="906" height="515" alt="image" src="https://github.com/user-attachments/assets/7b161a92-cdf6-4fe2-8727-d997ebf3c6fc" />
+<img width="249" height="230" alt="image" src="https://github.com/user-attachments/assets/5656250e-431e-4bc1-bbf9-01c1eab52bd1" />
+
 
 
 
 # 📞 支持与联系
 电子邮件: 25120410@bjtu.edu.cn  
 电话：13121722610
+
 
 
 
